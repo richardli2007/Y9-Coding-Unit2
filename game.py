@@ -10,7 +10,9 @@ print ("Hello!",name)
 inp = input("Enter y if you want to play this Riddle Game!")
 if "y" in inp.lower():
     print ("Alright!", name)
-    summary = input ("Jabari is very afraid to go onto the diving board. If you can answer these riddles, he will be able to gain confidence. The more energy you get, the cooler dive he can do at the end! Enter anything once you have finished reading")
+    print ()
+    summary = input ("Jabari is very afraid to go onto the diving board. If you can answer these riddles, he will be able to gain confidence. The more energy you get, the cooler dive he can do at the end! (After 7 tries, you will have to restart your code) Enter anything once you have finished reading")
+    print ()
     first = input("What belongs to you but your friends use it more?")
     count = 0
     correct = False
@@ -44,7 +46,7 @@ if "y" in inp.lower():
     print (word3)
 
 
-    
+    print ()
     second = input("A farmer has 17 sheep all but 8 escape. How many are left?")
     count = 0
     correct = False
@@ -76,12 +78,18 @@ if "y" in inp.lower():
     word4=art.text2art("You passed the second level!")
     print (word4)
 
-      
-   
+    print () 
+    print("   (-:'  `; `-._")
+    print("  (_,           )")
+    print(" ,'o(            )> ")
+    print("(__,-'            )")
+    print("   (             )")
+    print("    |`-'._.--._.-'")
+    print("        |  |    ")
             
 
 
-
+    print ()
     third = input("I am an odd number. I have 3 tens. My ones digit is the same as my tens digit, What am I?")
     count = 0
     correct = False
@@ -111,14 +119,14 @@ if "y" in inp.lower():
     word5=art.text2art("You passed the third level!")
     print (word5)
 
-
+    print ()
     print("     3333    3333")
     print("    33  33  33  33")
     print("       333     333")
     print("    33  33  33  33")
     print("     3333    3333 ")
 
-        
+    print ()   
     last = input("Great Job! It is time to see if Jabari can jump off the diving board! How much energy did you get?")
     correct = False
     while correct == False:
@@ -141,7 +149,25 @@ if "y" in inp.lower():
     print (word6)
     
     
-    
+    print ()
+    print("     .-''-,   ")
+    print("    ;--.   \    ")
+    print("  _/oo==\===|")
+    print(" (_ ___, \  | ")
+    print("   \\_/  / /  ")
+    print("    `--'\\`   ")
+    print("       /U/`--.  ")
+    print("      ///,____)   ")
+    print("     /// //  /  ")
+    print("    ''  // <`   ")
+    print("        \`\ \    ")
+    print("       _/_/__\_   ")
+    print("      \        |   ")
+    print("    =====   4  '--.   ")
+    print("        \         |    ")
+    print("~^~^~^~^~^~[_________|   ")
+    print("~^~^~^~^~^///////////    ")
+    print("~^~^~^~^~^~^//////////) ")
     
     
 else:   
